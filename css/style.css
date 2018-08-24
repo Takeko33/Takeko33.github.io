@@ -1843,12 +1843,12 @@ i.icon:before {
   height: 1.6em;
 }
 .highlight {
-  color: #fff;
-  background: #002451;
+  color: #4d4d4c;
+  background: #fff;
 }
 .highlight .code .comment,
 .highlight .code .quote {
-  color: #7285b7;
+  color: #8e908c;
 }
 .highlight .code .variable,
 .highlight .code .template-variable,
@@ -1858,7 +1858,7 @@ i.icon:before {
 .highlight .code .selector-class,
 .highlight .code .regexp,
 .highlight .code .deletion {
-  color: #ff9da4;
+  color: #c82829;
 }
 .highlight .code .number,
 .highlight .code .built_in,
@@ -1868,24 +1868,24 @@ i.icon:before {
 .highlight .code .params,
 .highlight .code .meta,
 .highlight .code .link {
-  color: #ffc58f;
+  color: #f5871f;
 }
 .highlight .code .attribute {
-  color: #ffeead;
+  color: #eab700;
 }
 .highlight .code .string,
 .highlight .code .symbol,
 .highlight .code .bullet,
 .highlight .code .addition {
-  color: #d1f1a9;
+  color: #718c00;
 }
 .highlight .code .title,
 .highlight .code .section {
-  color: #bbdaff;
+  color: #4271ae;
 }
 .highlight .code .keyword,
 .highlight .code .selector-tag {
-  color: #ebbbff;
+  color: #8959a8;
 }
 .highlight .code .emphasis {
   font-style: italic;
