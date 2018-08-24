@@ -1843,45 +1843,49 @@ i.icon:before {
   height: 1.6em;
 }
 .highlight {
-  color: #516d7b;
-  background: #ebf8ff;
+  color: #fff;
+  background: #002451;
 }
 .highlight .code .comment,
 .highlight .code .quote {
-  color: #5a7b8c;
+  color: #7285b7;
 }
 .highlight .code .variable,
 .highlight .code .template-variable,
-.highlight .code .attribute,
 .highlight .code .tag,
 .highlight .code .name,
-.highlight .code .regexp,
-.highlight .code .link,
 .highlight .code .selector-id,
-.highlight .code .selector-class {
-  color: #d22d72;
+.highlight .code .selector-class,
+.highlight .code .regexp,
+.highlight .code .deletion {
+  color: #ff9da4;
 }
 .highlight .code .number,
-.highlight .code .meta,
 .highlight .code .built_in,
 .highlight .code .builtin-name,
 .highlight .code .literal,
 .highlight .code .type,
-.highlight .code .params {
-  color: #935c25;
+.highlight .code .params,
+.highlight .code .meta,
+.highlight .code .link {
+  color: #ffc58f;
+}
+.highlight .code .attribute {
+  color: #ffeead;
 }
 .highlight .code .string,
 .highlight .code .symbol,
-.highlight .code .bullet {
-  color: #568c3b;
+.highlight .code .bullet,
+.highlight .code .addition {
+  color: #d1f1a9;
 }
 .highlight .code .title,
 .highlight .code .section {
-  color: #257fad;
+  color: #bbdaff;
 }
 .highlight .code .keyword,
 .highlight .code .selector-tag {
-  color: #6b6bb8;
+  color: #ebbbff;
 }
 .highlight .code .emphasis {
   font-style: italic;
