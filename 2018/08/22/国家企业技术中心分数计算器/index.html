@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    
+
+    
+    <title>国家企业技术中心分数计算器 | Hexo</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="练习,python" />
+    
+    <meta name="description" content="最近由于工作需要在申报国家企业技术中心，其中分数计算过程十分繁琐，手动计算容易出错，应同事要求写了一段代码计算分数，当做python的一个小练习。 计算规则评价方法见发改委通知具体计算规则如下：1．指标数值大于或等于满分要求时，指标得分为满分，即指标得分等于上表中的权重；2．指标数值等于基本要求时，指标得分为权重的60%；3．指标数值为0 时，指标得分为0；4．指标数值处于0 和基本要求之间时，指">
+<meta name="keywords" content="练习,python">
+<meta property="og:type" content="article">
+<meta property="og:title" content="国家企业技术中心分数计算器">
+<meta property="og:url" content="http://yoursite.com/2018/08/22/国家企业技术中心分数计算器/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="最近由于工作需要在申报国家企业技术中心，其中分数计算过程十分繁琐，手动计算容易出错，应同事要求写了一段代码计算分数，当做python的一个小练习。 计算规则评价方法见发改委通知具体计算规则如下：1．指标数值大于或等于满分要求时，指标得分为满分，即指标得分等于上表中的权重；2．指标数值等于基本要求时，指标得分为权重的60%；3．指标数值为0 时，指标得分为0；4．指标数值处于0 和基本要求之间时，指">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="http://yoursite.com/images/method.jpg">
+<meta property="og:updated_time" content="2018-08-24T13:12:47.185Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="国家企业技术中心分数计算器">
+<meta name="twitter:description" content="最近由于工作需要在申报国家企业技术中心，其中分数计算过程十分繁琐，手动计算容易出错，应同事要求写了一段代码计算分数，当做python的一个小练习。 计算规则评价方法见发改委通知具体计算规则如下：1．指标数值大于或等于满分要求时，指标得分为满分，即指标得分等于上表中的权重；2．指标数值等于基本要求时，指标得分为权重的60%；3．指标数值为0 时，指标得分为0；4．指标数值处于0 和基本要求之间时，指">
+<meta name="twitter:image" content="http://yoursite.com/images/method.jpg">
+    
+
+    
+        <link rel="alternate" href="/" title="Hexo" type="application/atom+xml" />
+    
+
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/titillium-web/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/2.2.4/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">Inici</a>
+                                </li>
+                            
+                                        
+                                    
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/about/index.html">Quant a</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Cercar" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'categories',
+            TAGS: 'etiquetes',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    Sense categoria
+    </h1>
+</div>
+                        <div class="main-body-content">
+                            <article id="post-国家企业技术中心分数计算器" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        国家企业技术中心分数计算器
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+        <a href="/2018/08/22/国家企业技术中心分数计算器/" class="article-date">
+            <time datetime="2018-08-22T12:13:31.000Z" itemprop="datePublished">2018-08-22</time>
+        </a>
+    </div>
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/python/">python</a>, <a class="tag-link" href="/tags/练习/">练习</a>
+    </div>
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <p>最近由于工作需要在申报国家企业技术中心，其中分数计算过程十分繁琐，手动计算容易出错，应同事要求写了一段代码计算分数，当做python的一个小练习。</p>
+<p><strong>计算规则</strong><br>评价方法见<a href="http://www.ndrc.gov.cn/zcfb/zcfbtz/201808/t20180803_894708.html" target="_blank" rel="noopener">发改委通知</a><br>具体计算规则如下：<br>1．指标数值大于或等于满分要求时，指标得分为满分，即指标得分等于上表中的权重；<br>2．指标数值等于基本要求时，指标得分为权重的60%；<br>3．指标数值为0 时，指标得分为0；<br>4．指标数值处于0 和基本要求之间时，指标得分按线性插值的方法计算，计算公式为：指标得分 = （指标数值/基本要求）* 权重的60%</p>
+<ol start="5">
+<li>指标数值处于基本要求和满分要求之间时，指标得分按线性插值的方法计算，计算公式为：指标得分 = （指标数值-基本要求）/（满分要求-基本要求）* 权重的40% + 权重的60%</li>
+</ol>
+<p>其中，指标名称、权重、基本要求和满分要求如下：<br><img src="/images/method.jpg" alt=""></p>
+<p><strong>代码如下</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br></pre></td><td class="code"><pre><span class="line">#coding:utf-8</span><br><span class="line">import pandas as pd</span><br><span class="line"></span><br><span class="line">def compute_score(x, weight, base, fullscore):</span><br><span class="line">	x = float(x)</span><br><span class="line">	if x == 0:</span><br><span class="line">		score = 0</span><br><span class="line">	elif x&gt;0 and x&lt;base:</span><br><span class="line">		score = x/base*weight*0.6</span><br><span class="line">	elif x == base:</span><br><span class="line">		score = weight * 0.6</span><br><span class="line">	elif x&gt;base and x&lt;fullscore:</span><br><span class="line">		score = (x - base)/(fullscore - base)*weight*0.4 + weight*0.6</span><br><span class="line">	elif x &gt;= fullscore:</span><br><span class="line">		score = weight</span><br><span class="line">	score = round(score,1)</span><br><span class="line">	return score </span><br><span class="line"></span><br><span class="line">def isnub(x):</span><br><span class="line">	try:</span><br><span class="line">		nb = float(x) #将字符串转换成数字成功则返回True</span><br><span class="line">		return True</span><br><span class="line">	except ValueError as e:</span><br><span class="line">		return False #如果出现异常则返回False</span><br><span class="line"></span><br><span class="line">X = []</span><br><span class="line">Scores = []</span><br><span class="line">Final_score = [0]*18</span><br><span class="line">Titles = [&quot;研发人员人均研发经费支出&quot;,&quot;研发经费支出占主营业务收入的比重&quot;,&quot;研发人员占企业职工总数的比重&quot;,&quot;技术中心拥有的高级专家和博士人数&quot;,&quot;来技术中心从事研发工作的外部专家人数&quot;,&quot;企业拥有的全部有效发明专利数&quot;,&quot;企业全部研发项目数&quot;,&quot;基础研究和应用研究项目数占全部研发项目数的比重&quot;,&quot;企业技术开发仪器设备原值&quot;,&quot;国家级研发平台数&quot;,&quot;省级研发平台数&quot;,&quot;通过国家（国际组织）认证的实验室和检测机构数&quot;,&quot;当年被受理的专利申请数&quot;,&quot;当年被受理的发明专利申请数&quot;,&quot;最近三年主持和参加制定的国际、国家和行业标准数&quot;,&quot;新产品销售收入占主营业务收入的比重&quot;,&quot;新产品销售利润占利润总额的比重&quot;,&quot;利润率&quot;]</span><br><span class="line">Weight = [8,12,7,4,4,5,4,4,4,3,2,3,5,6,4,10,10,5]</span><br><span class="line">Base = [5,0,3,5,20,5,10,3,3000,1,1,1,10,5,1,20,15,2]</span><br><span class="line">Fullscore = [80,0,25,25,100,80,100,10,30000,2,3,2,50,30,6,40,30,12]</span><br><span class="line">for title in Titles:</span><br><span class="line">    #由于第二个指标“研发经费支出占主营业务收入的比重”需要先进行一步判断，所以单独进行计算</span><br><span class="line">	index = Titles.index(title)</span><br><span class="line">	if index == 1:</span><br><span class="line">		Revenue = input(&quot;请输入主营业务收入(亿元)：&quot;)</span><br><span class="line">		while isnub(Revenue) == False:</span><br><span class="line">			Revenue = input(&quot;请输入数字：&quot;)</span><br><span class="line">		Revenue = float(Revenue)</span><br><span class="line">		x = input(&quot;请输入研发经费支出占主营业务收入的比重：&quot;)</span><br><span class="line">		while isnub(x) == False:</span><br><span class="line">			x = input(&quot;请输入数字：&quot;)</span><br><span class="line">		if Revenue&gt;=500:</span><br><span class="line">			score = compute_score(x, 12, 1, 5)</span><br><span class="line">		if Revenue&lt;500 and Revenue&gt;=100:</span><br><span class="line">			score = compute_score(x, 12, 1.5, 7)</span><br><span class="line">		if Revenue&lt;100 and Revenue&gt;=10:</span><br><span class="line">			score = compute_score(x, 12, 2, 9)</span><br><span class="line">		if Revenue&lt;10:</span><br><span class="line">			score = compute_score(x, 12, 3, 12)</span><br><span class="line">		X.append(x) </span><br><span class="line">		Scores.append(score)</span><br><span class="line">		print(&quot;研发经费支出占主营业务收入的比重项得分 %.1f&quot; % score)</span><br><span class="line">	else:</span><br><span class="line">		title_input = &quot;请输入&quot; + title + &quot;:&quot;</span><br><span class="line">		x = input(title_input)</span><br><span class="line">		while isnub(x) == False:</span><br><span class="line">			x = input(&quot;请输入数字：&quot;)</span><br><span class="line">		score = compute_score(x, Weight[index], Base[index], Fullscore[index])</span><br><span class="line">		X.append(x)</span><br><span class="line">		Scores.append(score)</span><br><span class="line">		title_output = title + &quot;项得分：%.1f&quot;</span><br><span class="line">		print(title_output % score)						</span><br><span class="line">final_score = 0</span><br><span class="line">for score in Scores:</span><br><span class="line">	final_score = final_score + score</span><br><span class="line">Final_score[0] = final_score</span><br><span class="line">print(&quot;总分%.1f&quot; % final_score)</span><br><span class="line">#数据保存到本地 </span><br><span class="line">columns = [&apos;Titles&apos;,&apos;Weight&apos;,&apos;Base requirements&apos;,&apos;Fullscore requirements&apos;,&apos;Value&apos;,&apos;Score&apos;,&apos;Final score&apos;]</span><br><span class="line">dataframe = pd.DataFrame(&#123;&apos;Titles&apos;:Titles,&apos;Weight&apos;:Weight,&apos;Base requirements&apos;:Base,&apos;Fullscore requirements&apos;:Fullscore,&apos;Value&apos;:X,&apos;Score&apos;:Scores,&apos;Final score&apos;:Final_score&#125;)</span><br><span class="line">file_name = &quot;Data.csv&quot;</span><br><span class="line">dataframe.to_csv(file_name,index=False,sep=&apos;,&apos;)</span><br><span class="line">columns = [&apos;Titles&apos;,&apos;Weight&apos;,&apos;Base requirements&apos;,&apos;Fullscore requirements&apos;,&apos;Value&apos;,&apos;Score&apos;,&apos;Final score&apos;]</span><br><span class="line">dataframe.to_csv(file_name,index=False,columns=columns)</span><br><span class="line">print (&apos;Finish saving csv file&apos;)</span><br></pre></td></tr></table></figure><br><a href="https://github.com/Takeko33/calculator_NETC" target="_blank" rel="noopener">代码下载链接</a></p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://yoursite.com/2018/08/22/国家企业技术中心分数计算器/" data-id="cjl8tuy1o0001fw75kuhqey3b" class="article-share-link"><i class="fa fa-share"></i>Compartir</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+</article>
+
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
+    </section>
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>seguir:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="https://twitter.com/Takeko56894423" target="_blank" rel="noopener">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="facebook" href="https://www.facebook.com/takeko.aeo.3" target="_blank" rel="noopener">
+                        <i class="icon fa fa-facebook"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="mastodon" href="https://coisland.xyz/@Takeko" target="_blank" rel="noopener">
+                        <i class="icon fa fa-mastodon"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/Takeko33" target="_blank" rel="noopener">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="weibo" href="https://weibo.com/2824316975/profile?rightmod=1&wvr=6&mod=personinfo" target="_blank" rel="noopener">
+                        <i class="icon fa fa-weibo"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/2018/06/25/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">antic</strong>
+        <p class="article-nav-title">Hello World</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">recents</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/08/22/国家企业技术中心分数计算器/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/method.jpg)" alt="国家企业技术中心分数计算器" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/08/22/国家企业技术中心分数计算器/" class="title">国家企业技术中心分数计算器</a></p>
+                            <p class="item-date"><time datetime="2018-08-22T12:13:31.000Z" itemprop="datePublished">2018-08-22</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/06/25/hello-world/" class="thumbnail">
+    
+    
+        <span style="background-image:url(source\images\hello.jpg)" alt="Hello World" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/06/25/hello-world/" class="title">Hello World</a></p>
+                            <p class="item-date"><time datetime="2018-06-25T12:28:09.589Z" itemprop="datePublished">2018-06-25</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">arxius</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a><span class="archive-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">etiquetes</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/">python</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/练习/">练习</a><span class="tag-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">etiqueta cloud</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/python/" style="font-size: 10px;">python</a> <a href="/tags/练习/" style="font-size: 10px;">练习</a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="https://github.com/Takeko33">github</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2018 John Doe</p>
+                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+            </div>
+            <div class="footer-plugins">
+              
+    
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+        
+    
+    <script>
+    var disqus_shortname = 'hexo-theme-hueman';
+    
+    
+    var disqus_url = 'http://yoursite.com/2018/08/22/国家企业技术中心分数计算器/';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>
