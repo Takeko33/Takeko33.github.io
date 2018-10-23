@@ -21,7 +21,7 @@
 <meta property="og:description" content="在运行上一篇文章中的爬虫程序的过程中遇到了几个问题，在这里总结一下 1. 不能定位到元素，报错selenium.common.exceptions.NoSuchElementException 网上查了资料又仔细查看了一下网页结构，发现是网页中包含了iframe。frame实际上是嵌入了另一个页面，而webdriver每次只能在一个页面识别，因此需要先定位到相应的frame，对那个页面里的元素进行">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://yoursite.com/images/20181015-01.png">
-<meta property="og:updated_time" content="2018-10-16T11:08:34.765Z">
+<meta property="og:updated_time" content="2018-10-23T11:39:35.894Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="selenium爬虫问题总结">
 <meta name="twitter:description" content="在运行上一篇文章中的爬虫程序的过程中遇到了几个问题，在这里总结一下 1. 不能定位到元素，报错selenium.common.exceptions.NoSuchElementException 网上查了资料又仔细查看了一下网页结构，发现是网页中包含了iframe。frame实际上是嵌入了另一个页面，而webdriver每次只能在一个页面识别，因此需要先定位到相应的frame，对那个页面里的元素进行">
@@ -183,9 +183,7 @@ ga('send', 'pageview');
 <p><strong>1. 不能定位到元素，报错selenium.common.exceptions.NoSuchElementException</strong></p>
 <p>网上查了资料又仔细查看了一下网页结构，发现是网页中包含了iframe。<br>frame实际上是嵌入了另一个页面，而webdriver每次只能在一个页面识别，因此需要先定位到相应的frame，对那个页面里的元素进行定位。<br>解决方法：如果iframe有name或id的话，直接使用switch_to_frame(“name/id”)</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">def __init__(self):</span><br><span class="line">    self.dr = webdriver.Chrome()</span><br><span class="line">    self.dr.get(&apos;http://www.most.gov.cn/mostinfo/&apos;)</span><br><span class="line">    self.dr.switch_to.frame(&quot;DataList&quot;)  </span><br></pre></td></tr></table></figure>
-<ol start="2">
-<li>改正了iframe的问题后运行程序，报错unknown error: call function result missing ‘value’</li>
-</ol>
+<p><strong>2. 改正了iframe的问题后运行程序，报错unknown error: call function result missing ‘value’</strong></p>
 <p>原因：chrome和chromedriver版本不匹配</p>
 <p><img src="/images/20181015-01.png" alt=""><br><img src="/images/20181015-02.png" alt=""></p>
 <p>解决方法：升级Chromedriver到匹配的版本</p>
@@ -255,7 +253,7 @@ ga('send', 'pageview');
 
 
 
-    <a data-url="http://yoursite.com/2018/10/16/selenium爬虫问题总结/" data-id="cjnipz24j00019g75b85m0v1g" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://yoursite.com/2018/10/16/selenium爬虫问题总结/" data-id="cjnlnsevn0000kg75vx6pr15u" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
