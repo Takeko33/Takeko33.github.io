@@ -125,13 +125,13 @@
       <category term="Technology" scheme="http://yoursite.com/categories/Technology/"/>
     
     
-      <category term="projects" scheme="http://yoursite.com/tags/projects/"/>
-    
       <category term="python" scheme="http://yoursite.com/tags/python/"/>
     
       <category term="Crawler" scheme="http://yoursite.com/tags/Crawler/"/>
     
       <category term="selenium" scheme="http://yoursite.com/tags/selenium/"/>
+    
+      <category term="projects" scheme="http://yoursite.com/tags/projects/"/>
     
   </entry>
   
@@ -323,9 +323,9 @@
       <category term="Technology" scheme="http://yoursite.com/categories/Technology/"/>
     
     
-      <category term="projects" scheme="http://yoursite.com/tags/projects/"/>
-    
       <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+      <category term="projects" scheme="http://yoursite.com/tags/projects/"/>
     
   </entry>
   
