@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://blog.takeko.top/"/>
   <updated>2020-03-26T23:33:13.467Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://blog.takeko.top/</id>
   
   <author>
     <name>Takeko</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>西窗随记&amp;羊水宝儿｜关于自由与平等的讨论</title>
-    <link href="http://yoursite.com/2020/03/27/free-equal/"/>
-    <id>http://yoursite.com/2020/03/27/free-equal/</id>
+    <link href="https://blog.takeko.top/2020/03/27/free-equal/"/>
+    <id>https://blog.takeko.top/2020/03/27/free-equal/</id>
     <published>2020-03-26T23:06:27.000Z</published>
     <updated>2020-03-26T23:33:13.467Z</updated>
     
@@ -34,17 +34,17 @@
     
     </summary>
     
-      <category term="Life" scheme="http://yoursite.com/categories/Life/"/>
+      <category term="Life" scheme="https://blog.takeko.top/categories/Life/"/>
     
     
-      <category term="时政" scheme="http://yoursite.com/tags/%E6%97%B6%E6%94%BF/"/>
+      <category term="时政" scheme="https://blog.takeko.top/tags/%E6%97%B6%E6%94%BF/"/>
     
   </entry>
   
   <entry>
     <title>韩国“N号房间”关于男人该不该挨骂的讨论</title>
-    <link href="http://yoursite.com/2020/03/24/nth-room-1/"/>
-    <id>http://yoursite.com/2020/03/24/nth-room-1/</id>
+    <link href="https://blog.takeko.top/2020/03/24/nth-room-1/"/>
+    <id>https://blog.takeko.top/2020/03/24/nth-room-1/</id>
     <published>2020-03-24T15:02:16.000Z</published>
     <updated>2020-03-26T23:31:57.244Z</updated>
     
@@ -59,17 +59,17 @@
     
     </summary>
     
-      <category term="Life" scheme="http://yoursite.com/categories/Life/"/>
+      <category term="Life" scheme="https://blog.takeko.top/categories/Life/"/>
     
     
-      <category term="时政" scheme="http://yoursite.com/tags/%E6%97%B6%E6%94%BF/"/>
+      <category term="时政" scheme="https://blog.takeko.top/tags/%E6%97%B6%E6%94%BF/"/>
     
   </entry>
   
   <entry>
     <title>敬自由</title>
-    <link href="http://yoursite.com/2020/03/11/%E6%95%AC%E8%87%AA%E7%94%B1/"/>
-    <id>http://yoursite.com/2020/03/11/敬自由/</id>
+    <link href="https://blog.takeko.top/2020/03/11/%E6%95%AC%E8%87%AA%E7%94%B1/"/>
+    <id>https://blog.takeko.top/2020/03/11/敬自由/</id>
     <published>2020-03-11T13:57:05.000Z</published>
     <updated>2020-03-11T14:18:38.510Z</updated>
     
@@ -84,17 +84,17 @@
     
     </summary>
     
-      <category term="Life" scheme="http://yoursite.com/categories/Life/"/>
+      <category term="Life" scheme="https://blog.takeko.top/categories/Life/"/>
     
     
-      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="https://blog.takeko.top/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>PPT工具合集</title>
-    <link href="http://yoursite.com/2019/01/29/PPT%E5%B7%A5%E5%85%B7%E5%90%88%E9%9B%86/"/>
-    <id>http://yoursite.com/2019/01/29/PPT工具合集/</id>
+    <link href="https://blog.takeko.top/2019/01/29/PPT%E5%B7%A5%E5%85%B7%E5%90%88%E9%9B%86/"/>
+    <id>https://blog.takeko.top/2019/01/29/PPT工具合集/</id>
     <published>2019-01-29T12:56:34.000Z</published>
     <updated>2019-01-29T13:16:28.617Z</updated>
     
@@ -111,17 +111,17 @@
     
     </summary>
     
-      <category term="Technology" scheme="http://yoursite.com/categories/Technology/"/>
+      <category term="Technology" scheme="https://blog.takeko.top/categories/Technology/"/>
     
     
-      <category term="PPT" scheme="http://yoursite.com/tags/PPT/"/>
+      <category term="PPT" scheme="https://blog.takeko.top/tags/PPT/"/>
     
   </entry>
   
   <entry>
     <title>2018年终总结&amp;2019年计划</title>
-    <link href="http://yoursite.com/2019/01/01/2018%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93-2019%E5%B9%B4%E8%AE%A1%E5%88%92/"/>
-    <id>http://yoursite.com/2019/01/01/2018年终总结-2019年计划/</id>
+    <link href="https://blog.takeko.top/2019/01/01/2018%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93-2019%E5%B9%B4%E8%AE%A1%E5%88%92/"/>
+    <id>https://blog.takeko.top/2019/01/01/2018年终总结-2019年计划/</id>
     <published>2019-01-01T13:35:31.000Z</published>
     <updated>2019-01-01T13:45:24.789Z</updated>
     
@@ -143,8 +143,8 @@
   
   <entry>
     <title>poem quiz古诗词填空出题器</title>
-    <link href="http://yoursite.com/2018/12/22/poem-quiz%E5%8F%A4%E8%AF%97%E8%AF%8D%E5%A1%AB%E7%A9%BA%E5%87%BA%E9%A2%98%E5%99%A8/"/>
-    <id>http://yoursite.com/2018/12/22/poem-quiz古诗词填空出题器/</id>
+    <link href="https://blog.takeko.top/2018/12/22/poem-quiz%E5%8F%A4%E8%AF%97%E8%AF%8D%E5%A1%AB%E7%A9%BA%E5%87%BA%E9%A2%98%E5%99%A8/"/>
+    <id>https://blog.takeko.top/2018/12/22/poem-quiz古诗词填空出题器/</id>
     <published>2018-12-22T07:46:05.000Z</published>
     <updated>2018-12-22T07:50:11.325Z</updated>
     
@@ -160,19 +160,19 @@
     
     </summary>
     
-      <category term="Technology" scheme="http://yoursite.com/categories/Technology/"/>
+      <category term="Technology" scheme="https://blog.takeko.top/categories/Technology/"/>
     
     
-      <category term="projects" scheme="http://yoursite.com/tags/projects/"/>
+      <category term="projects" scheme="https://blog.takeko.top/tags/projects/"/>
     
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+      <category term="python" scheme="https://blog.takeko.top/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>英语学习笔记note9</title>
-    <link href="http://yoursite.com/2018/12/21/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0note9/"/>
-    <id>http://yoursite.com/2018/12/21/英语学习笔记note9/</id>
+    <link href="https://blog.takeko.top/2018/12/21/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0note9/"/>
+    <id>https://blog.takeko.top/2018/12/21/英语学习笔记note9/</id>
     <published>2018-12-21T07:29:24.000Z</published>
     <updated>2018-12-22T07:41:00.123Z</updated>
     
@@ -188,19 +188,19 @@
     
     </summary>
     
-      <category term="Language" scheme="http://yoursite.com/categories/Language/"/>
+      <category term="Language" scheme="https://blog.takeko.top/categories/Language/"/>
     
     
-      <category term="English" scheme="http://yoursite.com/tags/English/"/>
+      <category term="English" scheme="https://blog.takeko.top/tags/English/"/>
     
-      <category term="Note" scheme="http://yoursite.com/tags/Note/"/>
+      <category term="Note" scheme="https://blog.takeko.top/tags/Note/"/>
     
   </entry>
   
   <entry>
     <title>英语学习笔记note8</title>
-    <link href="http://yoursite.com/2018/12/05/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0note8/"/>
-    <id>http://yoursite.com/2018/12/05/英语学习笔记note8/</id>
+    <link href="https://blog.takeko.top/2018/12/05/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0note8/"/>
+    <id>https://blog.takeko.top/2018/12/05/英语学习笔记note8/</id>
     <published>2018-12-05T13:27:39.000Z</published>
     <updated>2018-12-05T13:50:34.398Z</updated>
     
@@ -216,19 +216,19 @@
     
     </summary>
     
-      <category term="Language" scheme="http://yoursite.com/categories/Language/"/>
+      <category term="Language" scheme="https://blog.takeko.top/categories/Language/"/>
     
     
-      <category term="English" scheme="http://yoursite.com/tags/English/"/>
+      <category term="English" scheme="https://blog.takeko.top/tags/English/"/>
     
-      <category term="Note" scheme="http://yoursite.com/tags/Note/"/>
+      <category term="Note" scheme="https://blog.takeko.top/tags/Note/"/>
     
   </entry>
   
   <entry>
     <title>英语学习笔记note7</title>
-    <link href="http://yoursite.com/2018/11/01/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0note7/"/>
-    <id>http://yoursite.com/2018/11/01/英语学习笔记note7/</id>
+    <link href="https://blog.takeko.top/2018/11/01/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0note7/"/>
+    <id>https://blog.takeko.top/2018/11/01/英语学习笔记note7/</id>
     <published>2018-11-01T10:57:58.000Z</published>
     <updated>2018-11-04T07:40:04.773Z</updated>
     
@@ -244,19 +244,19 @@
     
     </summary>
     
-      <category term="Language" scheme="http://yoursite.com/categories/Language/"/>
+      <category term="Language" scheme="https://blog.takeko.top/categories/Language/"/>
     
     
-      <category term="English" scheme="http://yoursite.com/tags/English/"/>
+      <category term="English" scheme="https://blog.takeko.top/tags/English/"/>
     
-      <category term="Note" scheme="http://yoursite.com/tags/Note/"/>
+      <category term="Note" scheme="https://blog.takeko.top/tags/Note/"/>
     
   </entry>
   
   <entry>
     <title>英语学习笔记note6</title>
-    <link href="http://yoursite.com/2018/10/21/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0note6/"/>
-    <id>http://yoursite.com/2018/10/21/英语学习笔记note6/</id>
+    <link href="https://blog.takeko.top/2018/10/21/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0note6/"/>
+    <id>https://blog.takeko.top/2018/10/21/英语学习笔记note6/</id>
     <published>2018-10-21T08:56:37.000Z</published>
     <updated>2018-10-21T10:17:39.814Z</updated>
     
@@ -272,19 +272,19 @@
     
     </summary>
     
-      <category term="Language" scheme="http://yoursite.com/categories/Language/"/>
+      <category term="Language" scheme="https://blog.takeko.top/categories/Language/"/>
     
     
-      <category term="English" scheme="http://yoursite.com/tags/English/"/>
+      <category term="English" scheme="https://blog.takeko.top/tags/English/"/>
     
-      <category term="Note" scheme="http://yoursite.com/tags/Note/"/>
+      <category term="Note" scheme="https://blog.takeko.top/tags/Note/"/>
     
   </entry>
   
   <entry>
     <title>selenium爬虫问题总结</title>
-    <link href="http://yoursite.com/2018/10/16/selenium%E7%88%AC%E8%99%AB%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/"/>
-    <id>http://yoursite.com/2018/10/16/selenium爬虫问题总结/</id>
+    <link href="https://blog.takeko.top/2018/10/16/selenium%E7%88%AC%E8%99%AB%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/"/>
+    <id>https://blog.takeko.top/2018/10/16/selenium爬虫问题总结/</id>
     <published>2018-10-16T10:59:33.000Z</published>
     <updated>2018-10-23T11:39:35.894Z</updated>
     
@@ -301,21 +301,21 @@
     
     </summary>
     
-      <category term="Technology" scheme="http://yoursite.com/categories/Technology/"/>
+      <category term="Technology" scheme="https://blog.takeko.top/categories/Technology/"/>
     
     
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+      <category term="python" scheme="https://blog.takeko.top/tags/python/"/>
     
-      <category term="Crawler" scheme="http://yoursite.com/tags/Crawler/"/>
+      <category term="Crawler" scheme="https://blog.takeko.top/tags/Crawler/"/>
     
-      <category term="selenium" scheme="http://yoursite.com/tags/selenium/"/>
+      <category term="selenium" scheme="https://blog.takeko.top/tags/selenium/"/>
     
   </entry>
   
   <entry>
     <title>News Collector</title>
-    <link href="http://yoursite.com/2018/10/15/News-Collector/"/>
-    <id>http://yoursite.com/2018/10/15/News-Collector/</id>
+    <link href="https://blog.takeko.top/2018/10/15/News-Collector/"/>
+    <id>https://blog.takeko.top/2018/10/15/News-Collector/</id>
     <published>2018-10-15T13:32:21.000Z</published>
     <updated>2018-10-15T13:36:24.424Z</updated>
     
@@ -331,23 +331,23 @@
     
     </summary>
     
-      <category term="Technology" scheme="http://yoursite.com/categories/Technology/"/>
+      <category term="Technology" scheme="https://blog.takeko.top/categories/Technology/"/>
     
     
-      <category term="projects" scheme="http://yoursite.com/tags/projects/"/>
+      <category term="projects" scheme="https://blog.takeko.top/tags/projects/"/>
     
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+      <category term="python" scheme="https://blog.takeko.top/tags/python/"/>
     
-      <category term="Crawler" scheme="http://yoursite.com/tags/Crawler/"/>
+      <category term="Crawler" scheme="https://blog.takeko.top/tags/Crawler/"/>
     
-      <category term="selenium" scheme="http://yoursite.com/tags/selenium/"/>
+      <category term="selenium" scheme="https://blog.takeko.top/tags/selenium/"/>
     
   </entry>
   
   <entry>
     <title>英语学习笔记note5</title>
-    <link href="http://yoursite.com/2018/10/14/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0note5/"/>
-    <id>http://yoursite.com/2018/10/14/英语学习笔记note5/</id>
+    <link href="https://blog.takeko.top/2018/10/14/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0note5/"/>
+    <id>https://blog.takeko.top/2018/10/14/英语学习笔记note5/</id>
     <published>2018-10-14T06:47:20.000Z</published>
     <updated>2018-10-14T06:51:51.118Z</updated>
     
@@ -363,19 +363,19 @@
     
     </summary>
     
-      <category term="Language" scheme="http://yoursite.com/categories/Language/"/>
+      <category term="Language" scheme="https://blog.takeko.top/categories/Language/"/>
     
     
-      <category term="English" scheme="http://yoursite.com/tags/English/"/>
+      <category term="English" scheme="https://blog.takeko.top/tags/English/"/>
     
-      <category term="Note" scheme="http://yoursite.com/tags/Note/"/>
+      <category term="Note" scheme="https://blog.takeko.top/tags/Note/"/>
     
   </entry>
   
   <entry>
     <title>英语学习笔记note4</title>
-    <link href="http://yoursite.com/2018/10/02/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0note4/"/>
-    <id>http://yoursite.com/2018/10/02/英语学习笔记note4/</id>
+    <link href="https://blog.takeko.top/2018/10/02/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0note4/"/>
+    <id>https://blog.takeko.top/2018/10/02/英语学习笔记note4/</id>
     <published>2018-10-02T10:14:26.000Z</published>
     <updated>2018-10-14T06:49:53.584Z</updated>
     
@@ -391,19 +391,19 @@
     
     </summary>
     
-      <category term="Language" scheme="http://yoursite.com/categories/Language/"/>
+      <category term="Language" scheme="https://blog.takeko.top/categories/Language/"/>
     
     
-      <category term="English" scheme="http://yoursite.com/tags/English/"/>
+      <category term="English" scheme="https://blog.takeko.top/tags/English/"/>
     
-      <category term="Note" scheme="http://yoursite.com/tags/Note/"/>
+      <category term="Note" scheme="https://blog.takeko.top/tags/Note/"/>
     
   </entry>
   
   <entry>
     <title>英语学习笔记note3</title>
-    <link href="http://yoursite.com/2018/09/22/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0note3/"/>
-    <id>http://yoursite.com/2018/09/22/英语学习笔记note3/</id>
+    <link href="https://blog.takeko.top/2018/09/22/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0note3/"/>
+    <id>https://blog.takeko.top/2018/09/22/英语学习笔记note3/</id>
     <published>2018-09-22T12:49:17.000Z</published>
     <updated>2018-10-14T06:50:05.307Z</updated>
     
@@ -419,19 +419,19 @@
     
     </summary>
     
-      <category term="Language" scheme="http://yoursite.com/categories/Language/"/>
+      <category term="Language" scheme="https://blog.takeko.top/categories/Language/"/>
     
     
-      <category term="English" scheme="http://yoursite.com/tags/English/"/>
+      <category term="English" scheme="https://blog.takeko.top/tags/English/"/>
     
-      <category term="Note" scheme="http://yoursite.com/tags/Note/"/>
+      <category term="Note" scheme="https://blog.takeko.top/tags/Note/"/>
     
   </entry>
   
   <entry>
     <title>英语学习笔记note2</title>
-    <link href="http://yoursite.com/2018/09/08/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0note2/"/>
-    <id>http://yoursite.com/2018/09/08/英语学习笔记note2/</id>
+    <link href="https://blog.takeko.top/2018/09/08/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0note2/"/>
+    <id>https://blog.takeko.top/2018/09/08/英语学习笔记note2/</id>
     <published>2018-09-08T14:08:22.000Z</published>
     <updated>2018-09-08T14:16:37.712Z</updated>
     
@@ -447,19 +447,19 @@
     
     </summary>
     
-      <category term="Language" scheme="http://yoursite.com/categories/Language/"/>
+      <category term="Language" scheme="https://blog.takeko.top/categories/Language/"/>
     
     
-      <category term="English" scheme="http://yoursite.com/tags/English/"/>
+      <category term="English" scheme="https://blog.takeko.top/tags/English/"/>
     
-      <category term="Note" scheme="http://yoursite.com/tags/Note/"/>
+      <category term="Note" scheme="https://blog.takeko.top/tags/Note/"/>
     
   </entry>
   
   <entry>
     <title>英语学习笔记note1</title>
-    <link href="http://yoursite.com/2018/09/01/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0note1/"/>
-    <id>http://yoursite.com/2018/09/01/英语学习笔记note1/</id>
+    <link href="https://blog.takeko.top/2018/09/01/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0note1/"/>
+    <id>https://blog.takeko.top/2018/09/01/英语学习笔记note1/</id>
     <published>2018-09-01T14:36:42.000Z</published>
     <updated>2018-09-08T14:16:43.303Z</updated>
     
@@ -475,19 +475,19 @@
     
     </summary>
     
-      <category term="Language" scheme="http://yoursite.com/categories/Language/"/>
+      <category term="Language" scheme="https://blog.takeko.top/categories/Language/"/>
     
     
-      <category term="English" scheme="http://yoursite.com/tags/English/"/>
+      <category term="English" scheme="https://blog.takeko.top/tags/English/"/>
     
-      <category term="Note" scheme="http://yoursite.com/tags/Note/"/>
+      <category term="Note" scheme="https://blog.takeko.top/tags/Note/"/>
     
   </entry>
   
   <entry>
     <title>孤岛</title>
-    <link href="http://yoursite.com/2018/08/25/%E5%AD%A4%E5%B2%9B/"/>
-    <id>http://yoursite.com/2018/08/25/孤岛/</id>
+    <link href="https://blog.takeko.top/2018/08/25/%E5%AD%A4%E5%B2%9B/"/>
+    <id>https://blog.takeko.top/2018/08/25/孤岛/</id>
     <published>2018-08-25T11:31:45.000Z</published>
     <updated>2018-09-01T14:31:06.317Z</updated>
     
@@ -503,17 +503,17 @@
     
     </summary>
     
-      <category term="Life" scheme="http://yoursite.com/categories/Life/"/>
+      <category term="Life" scheme="https://blog.takeko.top/categories/Life/"/>
     
     
-      <category term="手作" scheme="http://yoursite.com/tags/%E6%89%8B%E4%BD%9C/"/>
+      <category term="手作" scheme="https://blog.takeko.top/tags/%E6%89%8B%E4%BD%9C/"/>
     
   </entry>
   
   <entry>
     <title>国家企业技术中心分数计算器</title>
-    <link href="http://yoursite.com/2018/08/22/%E5%9B%BD%E5%AE%B6%E4%BC%81%E4%B8%9A%E6%8A%80%E6%9C%AF%E4%B8%AD%E5%BF%83%E5%88%86%E6%95%B0%E8%AE%A1%E7%AE%97%E5%99%A8/"/>
-    <id>http://yoursite.com/2018/08/22/国家企业技术中心分数计算器/</id>
+    <link href="https://blog.takeko.top/2018/08/22/%E5%9B%BD%E5%AE%B6%E4%BC%81%E4%B8%9A%E6%8A%80%E6%9C%AF%E4%B8%AD%E5%BF%83%E5%88%86%E6%95%B0%E8%AE%A1%E7%AE%97%E5%99%A8/"/>
+    <id>https://blog.takeko.top/2018/08/22/国家企业技术中心分数计算器/</id>
     <published>2018-08-22T12:13:31.000Z</published>
     <updated>2018-09-08T13:23:32.990Z</updated>
     
@@ -529,19 +529,19 @@
     
     </summary>
     
-      <category term="Technology" scheme="http://yoursite.com/categories/Technology/"/>
+      <category term="Technology" scheme="https://blog.takeko.top/categories/Technology/"/>
     
     
-      <category term="projects" scheme="http://yoursite.com/tags/projects/"/>
+      <category term="projects" scheme="https://blog.takeko.top/tags/projects/"/>
     
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+      <category term="python" scheme="https://blog.takeko.top/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/06/25/hello-world/"/>
-    <id>http://yoursite.com/2018/06/25/hello-world/</id>
+    <link href="https://blog.takeko.top/2018/06/25/hello-world/"/>
+    <id>https://blog.takeko.top/2018/06/25/hello-world/</id>
     <published>2018-06-25T12:28:09.589Z</published>
     <updated>2018-08-27T12:53:17.741Z</updated>
     
@@ -556,7 +556,7 @@
     
     </summary>
     
-      <category term="Technology" scheme="http://yoursite.com/categories/Technology/"/>
+      <category term="Technology" scheme="https://blog.takeko.top/categories/Technology/"/>
     
     
   </entry>
