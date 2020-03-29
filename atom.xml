@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.takeko.top/"/>
-  <updated>2020-03-29T06:35:57.694Z</updated>
+  <updated>2020-03-29T10:42:42.207Z</updated>
   <id>https://blog.takeko.top/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>木瓜慕斯蛋糕</title>
+    <link href="https://blog.takeko.top/2020/03/29/cake/"/>
+    <id>https://blog.takeko.top/2020/03/29/cake/</id>
+    <published>2020-03-29T08:43:28.000Z</published>
+    <updated>2020-03-29T10:42:42.207Z</updated>
+    
+    <content type="html"><![CDATA[<p>同事给了一个木瓜，但我不太喜欢木瓜的味道，正好还剩一盒淡奶油，就做成了慕斯蛋糕。说实话味道不是很好，下次还是用草莓或者芒果吧。</p><h2 id=""><a href="#" class="headerlink" title=""></a><img src="/images/cake.jpg" alt="木瓜慕斯"></h2><p>先做戚风蛋糕做底，我用的8寸活底模具，只做饼底，材料如下：</p><table><thead><tr><th>食材</th><th>数量</th></tr></thead><tbody><tr><td>鸡蛋</td><td>2个</td></tr><tr><td>低筋面粉</td><td>45g</td></tr><tr><td>玉米油</td><td>25g</td></tr><tr><td>牛奶或水</td><td>30g</td></tr><tr><td>细砂糖</td><td>35g</td></tr><tr><td>盐</td><td>1g</td></tr></tbody></table><p>玉米油、牛奶（或水）、盐混合至乳化，筛入低筋面粉，加入2个蛋黄混合均匀。蛋白加糖打发至提起打蛋器呈现小尖角。将蛋黄糊和蛋白混合，翻拌均匀，倒入模具中。烤箱150度40分钟，取出晾凉。</p><p>慕斯用料：</p><table><thead><tr><th>食材</th><th>数量</th></tr></thead><tbody><tr><td>木瓜</td><td>1个</td></tr><tr><td>淡奶油</td><td>250ml</td></tr><tr><td>糖</td><td>15g</td></tr><tr><td>吉利丁片</td><td>10g</td></tr></tbody></table><p>木瓜碾碎，加入冷水浸泡过得吉利丁片，稍稍加热融化。淡奶油打发，与木瓜泥混合，倒入放好饼底的模具中，轻震模具，放入冰箱冷藏四小时。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;同事给了一个木瓜，但我不太喜欢木瓜的味道，正好还剩一盒淡奶油，就做成了慕斯蛋糕。说实话味道不是很好，下次还是用草莓或者芒果吧。&lt;/p&gt;
+&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;img src=&quot;/imag
+      
+    
+    </summary>
+    
+      <category term="Life" scheme="https://blog.takeko.top/categories/Life/"/>
+    
+    
+      <category term="食谱" scheme="https://blog.takeko.top/tags/%E9%A3%9F%E8%B0%B1/"/>
+    
+  </entry>
   
   <entry>
     <title>西窗随记&amp;羊水宝儿｜关于自由与平等的讨论</title>
@@ -511,29 +537,6 @@
     
     
       <category term="python" scheme="https://blog.takeko.top/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://blog.takeko.top/2018/06/25/hello-world/"/>
-    <id>https://blog.takeko.top/2018/06/25/hello-world/</id>
-    <published>2018-06-25T12:28:09.589Z</published>
-    <updated>2018-08-27T12:53:17.741Z</updated>
-    
-    <content type="html"><![CDATA[<p>This is my very first post.<br>This blog website is built based on <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>!<br><img src="/images/hello.jpg" alt=""></p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><p><a href="https://hexo.io/docs/" target="_blank" rel="noopener">Documentation</a><br><a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;This is my very first post.&lt;br&gt;This blog website is built based on &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;!&lt;br
-      
-    
-    </summary>
-    
-      <category term="Technology" scheme="https://blog.takeko.top/categories/Technology/"/>
-    
     
   </entry>
   
