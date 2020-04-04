@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.takeko.top/"/>
-  <updated>2020-03-29T10:42:42.207Z</updated>
+  <updated>2020-04-04T04:11:27.106Z</updated>
   <id>https://blog.takeko.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>肖战事件温和派vs激进派</title>
+    <link href="https://blog.takeko.top/2020/04/04/%E8%82%96%E6%88%98%E4%BA%8B%E4%BB%B6%E6%B8%A9%E5%92%8C%E6%B4%BEvs%E6%BF%80%E8%BF%9B%E6%B4%BE/"/>
+    <id>https://blog.takeko.top/2020/04/04/肖战事件温和派vs激进派/</id>
+    <published>2020-04-04T03:27:32.000Z</published>
+    <updated>2020-04-04T04:11:27.106Z</updated>
+    
+    <content type="html"><![CDATA[<p>晚上失眠刷微博，又在首页吃的了肖战的瓜，从亚非文学bot退博到新了解到的的325事件和FF14超话活动事件，肖战粉丝（或者打着肖战旗号的人）还在不停的制造争端，简直烦不胜烦。从227到现在已经一个多月了，这件事还没有结果。更有趣的是，随着战线的不断拉长，在抵制肖战的人群中，也出现了不同的声音。</p><p>抵制者基本分为两派，温和派主张以开发票、刷tag等方式狙击肖战商务，激进派则是拉起了举报的大旗，向国务院、教育部、林业局等政府机构举报肖战为失格艺人，同时扒出肖战代言的产品虚假宣传、电视剧虐待国家二级保护动物、拍摄的杂志台毒港独。两者虽然有同样的目的，都想让肖战糊，但互相之间不能接受对方的手段。温和派认为激进派的做法和肖战粉丝最初滥用公权力举报AO3的做法没有什么分别，这样做相当于屠龙勇士拿起了利刃最终变成了恶龙。二激进派认为，在资本的压制下温和的抵制根本没有任何作用，抵制了这么久连热搜都没有上过，甚至检察日报和央视网连自己的评论都控不住，举报本来就是弱者保护自己限制权力的手段，不用简直是圣母白莲。</p><p>对于同样的抵制采取什么样的方法是个很复杂的问题，我思考了很久也没有确定的想法。我个人一直采取的是温和的做法，但也不反对激进的做法，甚至情绪上头时也想和他们一起举报。我比较担心的一点是，举报是个双刃剑。一方面，不希望公权力侵占更多的私人领域。我不喜欢吃香菜，但是也不希望有一只无法反抗的大手直接将所有的香菜连根拔起。另一方面，以之前懒政的惯性来讲，很可能双方一起封杀，如果波及的了无辜的同人作者，真的是得不偿失。所以我一直以来的观点是不求同、存异，有人想法不一样是好事，坚持做自己想做的，包容不同的观点。一个好的现象是，双方虽然互相不认同但是没有产生大范围的激烈冲突，这就体现出了和肖战粉的不同。</p><p>实际上，我非常希望能看到双方就这个问题辩一辩，一个人的思维受限很难想明白。但很遗憾现在的中文互联网环境容不下理性的讨论。这就是另一个话题了，以后再详细谈。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;晚上失眠刷微博，又在首页吃的了肖战的瓜，从亚非文学bot退博到新了解到的的325事件和FF14超话活动事件，肖战粉丝（或者打着肖战旗号的人）还在不停的制造争端，简直烦不胜烦。从227到现在已经一个多月了，这件事还没有结果。更有趣的是，随着战线的不断拉长，在抵制肖战的人群中，
+      
+    
+    </summary>
+    
+      <category term="Life" scheme="https://blog.takeko.top/categories/Life/"/>
+    
+    
+      <category term="随笔" scheme="https://blog.takeko.top/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>木瓜慕斯蛋糕</title>
@@ -511,32 +536,6 @@
     
     
       <category term="手作" scheme="https://blog.takeko.top/tags/%E6%89%8B%E4%BD%9C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>国家企业技术中心分数计算器</title>
-    <link href="https://blog.takeko.top/2018/08/22/%E5%9B%BD%E5%AE%B6%E4%BC%81%E4%B8%9A%E6%8A%80%E6%9C%AF%E4%B8%AD%E5%BF%83%E5%88%86%E6%95%B0%E8%AE%A1%E7%AE%97%E5%99%A8/"/>
-    <id>https://blog.takeko.top/2018/08/22/国家企业技术中心分数计算器/</id>
-    <published>2018-08-22T12:13:31.000Z</published>
-    <updated>2020-03-29T06:37:31.806Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近由于工作需要在申报国家企业技术中心，其中分数计算过程十分繁琐，手动计算容易出错，应同事要求写了一段代码计算分数，当做python的一个小练习。</p><p><strong>计算规则</strong><br>评价方法见<a href="http://www.ndrc.gov.cn/zcfb/zcfbtz/201808/t20180803_894708.html" target="_blank" rel="noopener">发改委通知</a><br>具体计算规则如下：<br>1．指标数值大于或等于满分要求时，指标得分为满分，即指标得分等于上表中的权重；<br>2．指标数值等于基本要求时，指标得分为权重的60%；<br>3．指标数值为0 时，指标得分为0；<br>4．指标数值处于0 和基本要求之间时，指标得分按线性插值的方法计算，计算公式为：指标得分 = （指标数值/基本要求）* 权重的60%</p><ol start="5"><li>指标数值处于基本要求和满分要求之间时，指标得分按线性插值的方法计算，计算公式为：指标得分 = （指标数值-基本要求）/（满分要求-基本要求）* 权重的40% + 权重的60%</li></ol><p>其中，指标名称、权重、基本要求和满分要求如下：<br><img src="/images/method.jpg" alt=""></p><p><strong>代码如下</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br></pre></td><td class="code"><pre><span class="line">#coding:utf-8</span><br><span class="line">import pandas as pd</span><br><span class="line"></span><br><span class="line">def compute_score(x, weight, base, fullscore):</span><br><span class="line">x = float(x)</span><br><span class="line">if x == 0:</span><br><span class="line">score = 0</span><br><span class="line">elif x&gt;0 and x&lt;base:</span><br><span class="line">score = x/base*weight*0.6</span><br><span class="line">elif x == base:</span><br><span class="line">score = weight * 0.6</span><br><span class="line">elif x&gt;base and x&lt;fullscore:</span><br><span class="line">score = (x - base)/(fullscore - base)*weight*0.4 + weight*0.6</span><br><span class="line">elif x &gt;= fullscore:</span><br><span class="line">score = weight</span><br><span class="line">score = round(score,1)</span><br><span class="line">return score </span><br><span class="line"></span><br><span class="line">def isnub(x):</span><br><span class="line">try:</span><br><span class="line">nb = float(x) #将字符串转换成数字成功则返回True</span><br><span class="line">return True</span><br><span class="line">except ValueError as e:</span><br><span class="line">return False #如果出现异常则返回False</span><br><span class="line"></span><br><span class="line">X = []</span><br><span class="line">Scores = []</span><br><span class="line">Final_score = [0]*18</span><br><span class="line">Titles = [&quot;研发人员人均研发经费支出&quot;,&quot;研发经费支出占主营业务收入的比重&quot;,&quot;研发人员占企业职工总数的比重&quot;,&quot;技术中心拥有的高级专家和博士人数&quot;,&quot;来技术中心从事研发工作的外部专家人数&quot;,&quot;企业拥有的全部有效发明专利数&quot;,&quot;企业全部研发项目数&quot;,&quot;基础研究和应用研究项目数占全部研发项目数的比重&quot;,&quot;企业技术开发仪器设备原值&quot;,&quot;国家级研发平台数&quot;,&quot;省级研发平台数&quot;,&quot;通过国家（国际组织）认证的实验室和检测机构数&quot;,&quot;当年被受理的专利申请数&quot;,&quot;当年被受理的发明专利申请数&quot;,&quot;最近三年主持和参加制定的国际、国家和行业标准数&quot;,&quot;新产品销售收入占主营业务收入的比重&quot;,&quot;新产品销售利润占利润总额的比重&quot;,&quot;利润率&quot;]</span><br><span class="line">Weight = [8,12,7,4,4,5,4,4,4,3,2,3,5,6,4,10,10,5]</span><br><span class="line">Base = [5,0,3,5,20,5,10,3,3000,1,1,1,10,5,1,20,15,2]</span><br><span class="line">Fullscore = [80,0,25,25,100,80,100,10,30000,2,3,2,50,30,6,40,30,12]</span><br><span class="line">for title in Titles:</span><br><span class="line">    #由于第二个指标“研发经费支出占主营业务收入的比重”需要先进行一步判断，所以单独进行计算</span><br><span class="line">index = Titles.index(title)</span><br><span class="line">if index == 1:</span><br><span class="line">Revenue = input(&quot;请输入主营业务收入(亿元)：&quot;)</span><br><span class="line">while isnub(Revenue) == False:</span><br><span class="line">Revenue = input(&quot;请输入数字：&quot;)</span><br><span class="line">Revenue = float(Revenue)</span><br><span class="line">x = input(&quot;请输入研发经费支出占主营业务收入的比重：&quot;)</span><br><span class="line">while isnub(x) == False:</span><br><span class="line">x = input(&quot;请输入数字：&quot;)</span><br><span class="line">if Revenue&gt;=500:</span><br><span class="line">score = compute_score(x, 12, 1, 5)</span><br><span class="line">if Revenue&lt;500 and Revenue&gt;=100:</span><br><span class="line">score = compute_score(x, 12, 1.5, 7)</span><br><span class="line">if Revenue&lt;100 and Revenue&gt;=10:</span><br><span class="line">score = compute_score(x, 12, 2, 9)</span><br><span class="line">if Revenue&lt;10:</span><br><span class="line">score = compute_score(x, 12, 3, 12)</span><br><span class="line">X.append(x) </span><br><span class="line">Scores.append(score)</span><br><span class="line">print(&quot;研发经费支出占主营业务收入的比重项得分 %.1f&quot; % score)</span><br><span class="line">else:</span><br><span class="line">title_input = &quot;请输入&quot; + title + &quot;:&quot;</span><br><span class="line">x = input(title_input)</span><br><span class="line">while isnub(x) == False:</span><br><span class="line">x = input(&quot;请输入数字：&quot;)</span><br><span class="line">score = compute_score(x, Weight[index], Base[index], Fullscore[index])</span><br><span class="line">X.append(x)</span><br><span class="line">Scores.append(score)</span><br><span class="line">title_output = title + &quot;项得分：%.1f&quot;</span><br><span class="line">print(title_output % score)</span><br><span class="line">final_score = 0</span><br><span class="line">for score in Scores:</span><br><span class="line">final_score = final_score + score</span><br><span class="line">Final_score[0] = final_score</span><br><span class="line">print(&quot;总分%.1f&quot; % final_score)</span><br><span class="line">#数据保存到本地 </span><br><span class="line">columns = [&apos;Titles&apos;,&apos;Weight&apos;,&apos;Base requirements&apos;,&apos;Fullscore requirements&apos;,&apos;Value&apos;,&apos;Score&apos;,&apos;Final score&apos;]</span><br><span class="line">dataframe = pd.DataFrame(&#123;&apos;Titles&apos;:Titles,&apos;Weight&apos;:Weight,&apos;Base requirements&apos;:Base,&apos;Fullscore requirements&apos;:Fullscore,&apos;Value&apos;:X,&apos;Score&apos;:Scores,&apos;Final score&apos;:Final_score&#125;)</span><br><span class="line">file_name = &quot;Data.csv&quot;</span><br><span class="line">dataframe.to_csv(file_name,index=False,sep=&apos;,&apos;)</span><br><span class="line">columns = [&apos;Titles&apos;,&apos;Weight&apos;,&apos;Base requirements&apos;,&apos;Fullscore requirements&apos;,&apos;Value&apos;,&apos;Score&apos;,&apos;Final score&apos;]</span><br><span class="line">dataframe.to_csv(file_name,index=False,columns=columns)</span><br><span class="line">print (&apos;Finish saving csv file&apos;)</span><br></pre></td></tr></table></figure><br><a href="https://github.com/Takeko33/calculator_NETC" target="_blank" rel="noopener">代码下载链接</a><br>运行结果如下图，输入企业该项数值，计算该项的得分。<br><img src="/images/score_calculator-NETC-eg01.png" alt=""><br>加入了输入的数是不是数字的判断，如果不是会要求重新输入。<br><img src="/images/score_calculator-NETC-eg02.png" alt=""><br>全部数值输入完成后计算总分，并保存成表格。<br><img src="/images/score_calculator-NETC-eg03.png" alt=""><br><img src="/images/score_calculator-NETC-eg04.png" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;最近由于工作需要在申报国家企业技术中心，其中分数计算过程十分繁琐，手动计算容易出错，应同事要求写了一段代码计算分数，当做python的一个小练习。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;计算规则&lt;/strong&gt;&lt;br&gt;评价方法见&lt;a href=&quot;http://www.ndrc.g
-      
-    
-    </summary>
-    
-      <category term="Technology" scheme="https://blog.takeko.top/categories/Technology/"/>
-    
-    
-      <category term="python" scheme="https://blog.takeko.top/tags/python/"/>
     
   </entry>
   
