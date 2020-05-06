@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.takeko.top/"/>
-  <updated>2020-04-19T02:53:32.796Z</updated>
+  <updated>2020-05-06T13:38:45.264Z</updated>
   <id>https://blog.takeko.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一次电信诈骗复盘</title>
+    <link href="https://blog.takeko.top/2020/05/06/%E4%B8%80%E6%AC%A1%E7%94%B5%E4%BF%A1%E8%AF%88%E9%AA%97%E5%A4%8D%E7%9B%98/"/>
+    <id>https://blog.takeko.top/2020/05/06/一次电信诈骗复盘/</id>
+    <published>2020-05-06T13:35:57.000Z</published>
+    <updated>2020-05-06T13:38:45.264Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天遭遇了电信诈骗，骗子实在太会演了，只差那么一点点就被骗进去了，事后想起来还有点后怕，要是稍微放松一点警惕就一脚踏进了陷阱。</p><hr><p>下午一点半，正在工作，接到一个陌生号码打来的电话，对方说是我们本地医保局的工作人员，收到了公文（对方多次强调了 “公文”），说我在上海有一张医保卡1月份申请了报销，但是单据是假的，涉嫌骗保行为，4点钟就会提交法院追究我的法律责任，现在打电话通知我。我说我本人近期没去过上海，没有在上海办过医保卡，近期也没申请过报销。对方，就简称骗子A吧，和我来回确认了好几次不是本人办理的，说出了我的身份证号，还问我有没有丢过身份证。我说没有。</p><p>于是，骗子A作为一个“友好”的工作人员说：“那很有可能是身份信息泄露了，我这边领导也很重视，您赶紧和上海市金山区公安局报案吧，让公安局把报案回执单回传给北京市医保总局，这样法院也不会追究您的责任了”</p><p>本来我是有一点怀疑的，因为我确实没丢过身份证，平时也比较注意保护个人信息，至少应该不会被人盗用身份证办了张医保卡而不自知。但是对方一直没和我要任何信息，还说到让我报警了，我就打消了怀疑。</p><p>随后，骗子A又十分“专业”的说到：“我这边有上海那张医保卡的信息，您记一下吧到时候告诉警察，卡号是123456789，开卡单位是上海市医保局，开卡时间是2020年1月20日，报销金额8950元”</p><p>说到这么详细了，我也就信了</p><p>然后就到了重头戏，骗子A说，我这能给您转拨到上海市金山区公安分局，我帮您转拨过去吧。</p><p>我同意了。</p><p>隔了一会儿，骗子B接起了电话“您好，这里是上海市金山区公安分局”</p><p>我把骗子A告诉我的复述了一遍。</p><p>骗子B像模像样的记录了我告诉他的信息，和我确认了一下是不是遗失过身份证，我否认后又说可能是在别处泄露了身份信息，又开始详细的问我是不是收到过骚扰电话和短信。还问我1月份发生的事为什么现在才报案。经过一系列的“了解案情”，骗子B说“案件我们受理了，这涉及到个人信息外泄，是刑事案件，但是案件回执单只能做完笔录才能出具，但这个电话是接警前台不能长时间占用，不然会影响其他群众报案，我们这边有专业的录音设备可以进行笔录，您有QQ吗，加一下QQ我们做笔录吧。”还要求我用手机登录，强调了一下笔录是有录音的让我一定配合。</p><p>这个时候我就察觉到不对劲了，公安局是用QQ做笔录的吗？于是我让我同事帮我去网上查一下这是不是个骗局。刚说完qq电话就打进来了，我接了起来。</p><p>骗子B给我发了一张警官证的图片，和公安局地址，告诉我如果有什么问题可以到这个地址咨询（…）然后又开始了一轮详细的询问，包括平时收到过什么骚扰短信是怎么处理的。我一边等同事消息一边拖延时间。骗子B询问完，说“这样我让我们的网警同志检查一下是不是有黑客入侵，您告诉我手机型号，现在是这个手机号码吗？然后退回到主页面，好了告诉我一声。”</p><p>幸好这时同事也查到了结果，我直接挂断了。</p><p>然后我打了110，跟接电话的小姐姐说明了情况，警察小姐姐说，做笔录是要到现场的，这种情况肯定是诈骗，不要轻信，要注意个人信息安全，最后要走了骗子电话。</p><p>事情到这里结束了，庆幸还没来得及造成财产损失。事后想起来骗子的话里也有很多漏洞，其中有一个细节，我和骗子A说我一直在城市C没去过上海，但是我和骗子B说的是我没去过上海没有提城市C，但骗子B在总结的时候却说“您一直在城市C没去过上海是吧”，可惜当时没有在意这么多细节。另外，我在骗子打来电话的一分钟后收到了联通发来的短信，提醒我接到了境外打来电话，注意防范风险，骗子在通话过程中，一直在强调时间，增强紧迫感，让你没有时间思考，没有时间查看别的东西。骗子步步为营，总能在我刚刚起一点怀疑的时候，提供新信息打消我的疑虑，如果不是qq做笔录实在太明显了，我可能就被骗了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;今天遭遇了电信诈骗，骗子实在太会演了，只差那么一点点就被骗进去了，事后想起来还有点后怕，要是稍微放松一点警惕就一脚踏进了陷阱。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;下午一点半，正在工作，接到一个陌生号码打来的电话，对方说是我们本地医保局的工作人员，收到了公文（对方多次强调了 “公文”）
+      
+    
+    </summary>
+    
+    
+      <category term="Life" scheme="https://blog.takeko.top/tags/Life/"/>
+    
+  </entry>
   
   <entry>
     <title>长毛象中文实例介绍</title>
@@ -499,32 +524,6 @@
       
       
         &lt;p&gt;&lt;strong&gt;Confessions of a Shopaholic&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;/images/shopaholic03.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;“芝士派”无字幕电影20181008-20181013学习笔记&lt;/p&gt;
-&lt;h2 id
-      
-    
-    </summary>
-    
-      <category term="Note" scheme="https://blog.takeko.top/categories/Note/"/>
-    
-    
-      <category term="English" scheme="https://blog.takeko.top/tags/English/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>英语学习笔记note4</title>
-    <link href="https://blog.takeko.top/2018/10/02/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0note4/"/>
-    <id>https://blog.takeko.top/2018/10/02/英语学习笔记note4/</id>
-    <published>2018-10-02T10:14:26.000Z</published>
-    <updated>2020-03-29T06:38:20.869Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>Confessions of a Shopaholic</strong><br><img src="/images/shopaholic02.jpg" alt=""><br>“芝士派”无字幕电影20180923-20180930学习笔记</p><h2 id="rip-up"><a href="#rip-up" class="headerlink" title="rip up"></a>rip up</h2><p>撕碎</p><p>He ripped the letters up and threw them in the wastepaper basket.</p><h2 id="rip-off"><a href="#rip-off" class="headerlink" title="rip off"></a>rip off</h2><p>敲竹杠，坑钱<br>The company has been accused of ripping off customers.</p><h2 id="in-the-middle-of-something"><a href="#in-the-middle-of-something" class="headerlink" title="in the middle of something"></a>in the middle of something</h2><p>正在忙于做某事</p><p>He is in the middle ofvshopping.</p><h2 id="swap-meet"><a href="#swap-meet" class="headerlink" title="swap meet"></a>swap meet</h2><p>跳蚤市场</p><p>Tom takes his old sofa to the swap meet and see if he can exchange it for a television.</p><h2 id="far-out"><a href="#far-out" class="headerlink" title="far out"></a>far out</h2><p>异乎寻常的</p><p>Fantasies cannot harm you, no matter how bizarre or far out they are.</p><h2 id="thrive-on"><a href="#thrive-on" class="headerlink" title="thrive on"></a>thrive on</h2><p>因…蓬勃发展</p><p>More and more people use social networks at work, which thrive on exchanging information.</p><h2 id="check-it-out"><a href="#check-it-out" class="headerlink" title="check it out"></a>check it out</h2><p>过来看，口语化的表达，一般用于让身边的人来看看这个东西</p><p>Check it out. she’s staring at you.</p><h2 id="up-to-one’s-eyeball-in"><a href="#up-to-one’s-eyeball-in" class="headerlink" title="up to one’s eyeball in"></a>up to one’s eyeball in</h2><p>忙的焦头烂额</p><p>I’m up to my eyeball in work.</p><h2 id="part-国籍"><a href="#part-国籍" class="headerlink" title="part + 国籍"></a>part + 国籍</h2><p>表示有部分那个国家的血统或者语言文化能力</p><p>My mother is Chinese and my father is a US resident, so I’m part Chinese.</p><p>I want you to meet Janne from Nokia. I told him you’re part Finnish, and he’s very excited to meet you.</p><h2 id="down-to-sb"><a href="#down-to-sb" class="headerlink" title="down to sb"></a>down to sb</h2><p>由…引起，由…造成 = owe to</p><p>The mistake is enirely dowm to us.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;strong&gt;Confessions of a Shopaholic&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;/images/shopaholic02.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;“芝士派”无字幕电影20180923-20180930学习笔记&lt;/p&gt;
 &lt;h2 id
       
     
