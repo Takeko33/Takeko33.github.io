@@ -21,7 +21,7 @@
 <meta property="og:description" content="更新Mastodon3.1.5版本，按照document中的步骤更新，在最后重启服务的时候遇到问题，小象砸键盘了。 检查了一下mastodon-web、mastodon-sidekiq、mastodon-streaming的运行状态123systemctl status mastodon-websystemctl status mastodon-sidekiqsystemctl status ma">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://blog.takeko.top/images/mastodon.png">
-<meta property="og:updated_time" content="2020-07-13T14:45:32.042Z">
+<meta property="og:updated_time" content="2020-07-13T14:47:31.587Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mastodon更新3.1.5踩坑记录">
 <meta name="twitter:description" content="更新Mastodon3.1.5版本，按照document中的步骤更新，在最后重启服务的时候遇到问题，小象砸键盘了。 检查了一下mastodon-web、mastodon-sidekiq、mastodon-streaming的运行状态123systemctl status mastodon-websystemctl status mastodon-sidekiqsystemctl status ma">
@@ -180,7 +180,7 @@ ga('send', 'pageview');
             <p>更新Mastodon3.1.5版本，按照document中的步骤更新，在最后重启服务的时候遇到问题，小象砸键盘了。</p>
 <p>检查了一下mastodon-web、mastodon-sidekiq、mastodon-streaming的运行状态<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">systemctl status mastodon-web</span><br><span class="line">systemctl status mastodon-sidekiq</span><br><span class="line">systemctl status mastodon-streaming</span><br></pre></td></tr></table></figure></p>
 <p>其中mastodon-web、mastodon-sidekiq的状态都是 <figure class="highlight plain"><figcaption><span>```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">查看详细日志</span><br></pre></td></tr></table></figure></p>
-<p>journalctl -x -u mastodon-web<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">显示ruby2.6.6版本未安装 ```rbenv: version `2.6.6&apos; is not installed (set by home/mastodon/live/.ruby-version)</span><br></pre></td></tr></table></figure></p>
+<p>journalctl -x -u mastodon-web<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">显示ruby2.6.6版本未安装 ``` rbenv: version `2.6.6&apos; is not installed (set by home/mastodon/live/.ruby-version)</span><br></pre></td></tr></table></figure></p>
 <p><img src="/images/2.6.6notinstalled.png" alt=""></p>
 <p>更新ruby</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">su - mastodon</span><br><span class="line">cd ~/.rbenv/plugins/ruby-build</span><br><span class="line">git pull</span><br><span class="line">cd ~/.rbenv</span><br><span class="line">rbenv install 2.6.6</span><br></pre></td></tr></table></figure>
@@ -207,7 +207,7 @@ ga('send', 'pageview');
 
 
 
-    <a data-url="https://blog.takeko.top/2020/07/13/Mastodon更新3.1.5踩坑记录/" data-id="ckckmcyuh00016w75e6cmncd5" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://blog.takeko.top/2020/07/13/Mastodon更新3.1.5踩坑记录/" data-id="ckckmfo4p0000d875rlmml32e" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
