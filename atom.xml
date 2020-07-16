@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.takeko.top/"/>
-  <updated>2020-07-13T14:57:07.097Z</updated>
+  <updated>2020-07-16T11:10:17.844Z</updated>
   <id>https://blog.takeko.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1</title>
+    <link href="https://blog.takeko.top/2020/07/16/Mastodon%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%A2%9E%E5%8A%A0swap%E5%88%86%E5%8C%BA/"/>
+    <id>https://blog.takeko.top/2020/07/16/Mastodon服务器增加swap分区/</id>
+    <published>2020-07-16T11:09:17.000Z</published>
+    <updated>2020-07-16T11:10:17.844Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天把旧账号的关注导入新账号了，然后就时不时地出现暴躁小象。之前就发现内存经常处于爆炸的边缘，搜了一下增加swap分区的方法，试了一下有效果。</p><p>检查当前内存分配情况</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">free -m</span><br></pre></td></tr></table></figure><p><img src="/images/mastodon-swap-01.png" alt=""></p><p>添加并启动swap</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd /var/</span><br><span class="line"></span><br><span class="line">dd if=/dev/zero of=swapfile bs=1024 count=524288</span><br></pre></td></tr></table></figure><p>格式化分区</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkswap /var/swapfile</span><br></pre></td></tr></table></figure><p>激活</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/sbin/swapon swapfile</span><br></pre></td></tr></table></figure><p>开机启动加载</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/fstab</span><br></pre></td></tr></table></figure><p>在启动项文件中加入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/var/swapfile swap swap defaults 0 0</span><br></pre></td></tr></table></figure><p><img src="/images/mastodon-swap-02.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;今天把旧账号的关注导入新账号了，然后就时不时地出现暴躁小象。之前就发现内存经常处于爆炸的边缘，搜了一下增加swap分区的方法，试了一下有效果。&lt;/p&gt;
+&lt;p&gt;检查当前内存分配情况&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;
+      
+    
+    </summary>
+    
+      <category term="Technology" scheme="https://blog.takeko.top/categories/Technology/"/>
+    
+    
+      <category term="mastodon" scheme="https://blog.takeko.top/tags/mastodon/"/>
+    
+  </entry>
   
   <entry>
     <title>Mastodon更新3.1.5踩坑记录</title>
@@ -498,32 +525,6 @@
         &lt;h5 id=&quot;阶级分析的外部&quot;&gt;&lt;a href=&quot;#阶级分析的外部&quot; class=&quot;headerlink&quot; title=&quot;阶级分析的外部&quot;&gt;&lt;/a&gt;阶级分析的外部&lt;/h5&gt;&lt;ul&gt;
 &lt;li&gt;马克思的阶级分析没有触及“家庭”这个领域。&lt;/li&gt;
 &lt;li&gt;在马克思看来，男女性别分工
-      
-    
-    </summary>
-    
-      <category term="Note" scheme="https://blog.takeko.top/categories/Note/"/>
-    
-    
-      <category term="读书笔记" scheme="https://blog.takeko.top/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>父权制与资本主义ch01-马克思主义女权主义的问题构建</title>
-    <link href="https://blog.takeko.top/2020/06/01/Patriachy-Capitalism-ch01/"/>
-    <id>https://blog.takeko.top/2020/06/01/Patriachy-Capitalism-ch01/</id>
-    <published>2020-06-01T14:20:53.000Z</published>
-    <updated>2020-06-16T10:27:25.811Z</updated>
-    
-    <content type="html"><![CDATA[<h5 id="马克思主义和女性解放"><a href="#马克思主义和女性解放" class="headerlink" title="马克思主义和女性解放"></a>马克思主义和女性解放</h5><p>在诸类阐述女性受压迫的女权主义解放理论中，有且仅有三个方向：</p><ul><li>社会主义妇女解放论</li></ul><p><em>（压迫女性是统治阶级的因变量，反抗作为现今阶级统治形式的资本主义的斗争不但是解放女性的斗争，更是所有无产阶级男性和女性共同的战役–被倒戈的革命）</em></p><ul><li>激进女权主义</li></ul><p><em>（以弗洛伊德理论为基础，弗理论为解析压抑结构的理论，却不是解放理论，受其影响的女权主义者对其进行了修正，将近代社会领域分割为“市场”和“家庭”，这种分割及两者之间相互关系的现状正是近代工业社会歧视女性的根源）</em></p><ul><li>马克思主义女权主义</li></ul><p>三种理论均建立在马克思主义及其反论或修正的基础上，基本上只有马克思主义阐明了近代工业社会对女性的压迫和今后的解放理论</p><h5 id="市场及其“外部”"><a href="#市场及其“外部”" class="headerlink" title="市场及其“外部”"></a>市场及其“外部”</h5><p><img src="/images/Market&amp;Family.jpg" alt="“市场”与“家庭”"><br><img src="/images/Market&amp;Family2.jpg" alt="“市场”与“家庭”"></p><p>对“市场”而言，“人”不过是劳动力资源，而只有健康的成年男性才是有价值的“人”。只有健康的成年男性才被视为“人”，儿童是“人之前”，老人是“人之后”，而女性则是“人之外”。</p><h5 id="马克思主义女权主义的建立"><a href="#马克思主义女权主义的建立" class="headerlink" title="马克思主义女权主义的建立"></a>马克思主义女权主义的建立</h5><p>马克思主义将近代工业社会中阶级统治的历史固有形态命名为“资本主义”（capitalismm）</p><p>女权主义者将资产阶级一夫一妻制家庭中所产生的性统治的历史固有形态命名为“（近代）父权制”（patriachy）</p><p>马克思主义女权主义者反思了社会主义妇女解放理论的阶级统治一元论和激进女权主义的性统治一元论，把阶级统治和性统治分别看作独立的变量，解析两者相互关系中的历史固有形态。在近代资本主义社会中，女性不仅受“资本主义”的压迫，还受”父权制“的压迫。</p><h5 id="资产阶级女性解思想的陷阱"><a href="#资产阶级女性解思想的陷阱" class="headerlink" title="资产阶级女性解思想的陷阱"></a>资产阶级女性解思想的陷阱</h5><p>“女性权利”即“人权”，是女权主义运动的思想之源又是其局限，“女性的权利”究竟是解放的思想还是解放的理论，。缺乏理论的思想，只不过是自身的执念和信仰。<em>（此处存疑再读）</em></p><h5 id="批判近代的女权主义"><a href="#批判近代的女权主义" class="headerlink" title="批判近代的女权主义"></a>批判近代的女权主义</h5><p>女权主义的社会理论从批评近代出发。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h5 id=&quot;马克思主义和女性解放&quot;&gt;&lt;a href=&quot;#马克思主义和女性解放&quot; class=&quot;headerlink&quot; title=&quot;马克思主义和女性解放&quot;&gt;&lt;/a&gt;马克思主义和女性解放&lt;/h5&gt;&lt;p&gt;在诸类阐述女性受压迫的女权主义解放理论中，有且仅有三个方向：&lt;/p&gt;
-&lt;ul
       
     
     </summary>
