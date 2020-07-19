@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.takeko.top/"/>
-  <updated>2020-07-16T11:11:27.281Z</updated>
+  <updated>2020-07-19T14:39:04.734Z</updated>
   <id>https://blog.takeko.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mastodon瞎折腾日志01</title>
+    <link href="https://blog.takeko.top/2020/07/19/Mastodon%E7%9E%8E%E6%8A%98%E8%85%BE%E6%97%A5%E5%BF%9701/"/>
+    <id>https://blog.takeko.top/2020/07/19/Mastodon瞎折腾日志01/</id>
+    <published>2020-07-19T14:36:38.000Z</published>
+    <updated>2020-07-19T14:39:04.734Z</updated>
+    
+    <content type="html"><![CDATA[<p>由于开了一段时间中继，导致服务器空间不足，根据Allen Zhong和皮君的分享，首先清理了不必要的媒体文件，然后将媒体文件上传到scaleway。</p><hr><h4 id="清理媒体文件"><a href="#清理媒体文件" class="headerlink" title="清理媒体文件"></a>清理媒体文件</h4><p>清理缓存的外站媒体文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove --days=14</span><br></pre></td></tr></table></figure></p><p>清理未关联任何 toot 的“无主”媒体文件</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">RAILS_ENV=production /home/mastodon/live/bin/tootctl media remove-orphans</span><br></pre></td></tr></table></figure><p>清理没有同本站任何用户产生关联的 toot 本身（比如跨站轴上收到的、没有本站用户转发/评论/收藏过的消息）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">RAILS_ENV=production /home/mastodon/live/bin/tootctl statuses remove</span><br></pre></td></tr></table></figure><p>将以上三个命令设置成每天定时执行。</p><hr><h4 id="将媒体文件上传到scaleway"><a href="#将媒体文件上传到scaleway" class="headerlink" title="将媒体文件上传到scaleway"></a>将媒体文件上传到scaleway</h4><p>过程参考了皮君的<a href="https://pullopenbluebox.wordpress.com/2020/06/13/mastodon-scaleway/" target="_blank" rel="noopener">建站日志</a>和stan的博文<a href="https://stanislas.blog/2018/05/moving-mastodon-media-files-to-wasabi-object-storage/" target="_blank" rel="noopener">Moving mastodon’s media file to wasabi object storage</a> 。过程非常详细，此处就不赘述了。</p><hr><h4 id="修改字数上限"><a href="#修改字数上限" class="headerlink" title="修改字数上限"></a>修改字数上限</h4><p>参考<a href="https://github.com/pullopen/mastodon/commit/2bf275ba3b81e4c28d817511407680b0b7abc7fe" target="_blank" rel="noopener">链接</a></p><p>修改以下三个文件：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">app/javascript/mastodon/features/compose/components/compose_form.js</span><br><span class="line">app/serializers/rest/instance_serializer.rb</span><br><span class="line">app/validators/status_length_validator.rb</span><br></pre></td></tr></table></figure><p>随后</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">RAILS_ENV=production bundle exec rails assets:precompile</span><br></pre></td></tr></table></figure><p>重启后修改生效。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;由于开了一段时间中继，导致服务器空间不足，根据Allen Zhong和皮君的分享，首先清理了不必要的媒体文件，然后将媒体文件上传到scaleway。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;清理媒体文件&quot;&gt;&lt;a href=&quot;#清理媒体文件&quot; class=&quot;headerlink&quot; 
+      
+    
+    </summary>
+    
+      <category term="Technology" scheme="https://blog.takeko.top/categories/Technology/"/>
+    
+    
+      <category term="mastodon" scheme="https://blog.takeko.top/tags/mastodon/"/>
+    
+  </entry>
   
   <entry>
     <title>Mastodon服务器增加swap分区</title>
@@ -506,33 +533,6 @@
     
     
       <category term="微博搬运" scheme="https://blog.takeko.top/tags/%E5%BE%AE%E5%8D%9A%E6%90%AC%E8%BF%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>父权制与资本主义ch02-女权主义者与马克思主义</title>
-    <link href="https://blog.takeko.top/2020/06/03/Patriachy-Capitalism-ch02/"/>
-    <id>https://blog.takeko.top/2020/06/03/Patriachy-Capitalism-ch02/</id>
-    <published>2020-06-03T14:01:43.000Z</published>
-    <updated>2020-06-16T10:27:40.453Z</updated>
-    
-    <content type="html"><![CDATA[<h5 id="阶级分析的外部"><a href="#阶级分析的外部" class="headerlink" title="阶级分析的外部"></a>阶级分析的外部</h5><ul><li>马克思的阶级分析没有触及“家庭”这个领域。</li><li>在马克思看来，男女性别分工是男性和女性基于身体差异的“自然”分工。他没有把阶级对立、“精神劳动”和“肉体劳动”的“分工”看做是“自然”的分工，却将性别分工看多“自然”的分工。并对其置之不理。“性别”是太过明显的阶级对立，以至于容易被忽略。</li><li>将家庭置于市场之外的不只是马克思主义，更是市场本身。</li></ul><h5 id="“市场”和“家庭”：二者的辩证关系"><a href="#“市场”和“家庭”：二者的辩证关系" class="headerlink" title="“市场”和“家庭”：二者的辩证关系"></a>“市场”和“家庭”：二者的辩证关系</h5><ul><li>家庭“位于阶级分析之外”并不意味着家庭领域位于阶级统治乃至资本主义压迫制度的“外部”，更不意味着自由。</li><li>女性的确通过进入劳动市场进入了资本的直接统治，然而即便仍在家庭之中，她们也会受到资本的间接统治。</li><li>相反，倘若女性进入市场，她们未必能够被当成“市民”。</li><li>即便女性进入了劳动力市场，但只要她们无法享有自己的劳动力所有权，女性就只会成为劳动力市场的奴隶。<em>（丈夫/父母代领工资）</em></li><li>即便女性获得了自己的劳动力所有权，但她们在劳动力市场里人就是不完全的、二流的劳动力。<em>（榨取性这一变量，男女同工不同酬）</em></li><li>因此，对于女性而言，无论是进入市场“外部”还是“内部”都不意味着解放。</li><li>家庭承载着市场中劳动力的再生产功能，是劳动力市场的终端，承担着人的投入和产出。家庭并非本能地被放置到放任自流之中，它本身就是一种再生产制度。</li><li>资本主义和父权制的对应关系：</li></ul><table><thead><tr><th>制度</th><th>资本主义</th><th>父权制</th></tr></thead><tbody><tr><td>社会关系</td><td>生产关系</td><td>再生产关系</td></tr><tr><td>社会领域</td><td>公</td><td>私</td></tr><tr><td>统治形态</td><td>阶级统治</td><td>性统治</td></tr><tr><td>历史形态</td><td>市场</td><td>资产阶级一夫一妻小家庭</td></tr><tr><td>统筹原理</td><td>市场原理</td><td>俄狄浦斯情结</td></tr><tr><td>社会理论</td><td>马克思主义理论</td><td>弗洛伊德理论</td></tr></tbody></table><ul><li>马克思主义女权主义并不认同阶级统治一元论以及性统治一元论，而是认同了资本主义和父权制这两个社会领域的并存，并去思考两者之间的辩证关系。Natalie J. Sokoloff所说的资本主义和父权制的“辩证法关系：</li></ul><table><thead><tr><th>制度</th><th>父权制</th><th>资本主义</th></tr></thead><tbody><tr><td>家庭</td><td>（1）</td><td>（2）</td></tr><tr><td>市场</td><td>（3）</td><td>（4）</td></tr></tbody></table><p>马克思主义所主张的阶级关系是市场的机制（4），父权制这一概念揭示了家庭机制（1），有关女性劳动的辩证法式的诸多关系给我们探求家庭中的阶级关系（2）和市场中的父权关系（3）提供了可能。</p><h5 id="性统治的唯物主义分析"><a href="#性统治的唯物主义分析" class="headerlink" title="性统治的唯物主义分析"></a>性统治的唯物主义分析</h5><ul><li>马克思主义女权主义是指“对女权主义者的问题进行马克思主义的回答（Marxist answer to feminist question）。</li><li>马克思主义女权主义者之所以选择马克思主义，其原因在于他们认为父权制不仅仅是心理上的统治和压迫，更需要物质依据（material basis）的“唯物主义分析”（materialist analysis）。若想反抗这种压迫，我们只能通过改变物质基础而获得解放。</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h5 id=&quot;阶级分析的外部&quot;&gt;&lt;a href=&quot;#阶级分析的外部&quot; class=&quot;headerlink&quot; title=&quot;阶级分析的外部&quot;&gt;&lt;/a&gt;阶级分析的外部&lt;/h5&gt;&lt;ul&gt;
-&lt;li&gt;马克思的阶级分析没有触及“家庭”这个领域。&lt;/li&gt;
-&lt;li&gt;在马克思看来，男女性别分工
-      
-    
-    </summary>
-    
-      <category term="Note" scheme="https://blog.takeko.top/categories/Note/"/>
-    
-    
-      <category term="读书笔记" scheme="https://blog.takeko.top/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
